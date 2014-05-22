@@ -7,6 +7,8 @@ Roam是一个基于JS的HTML UI(感觉是废话),或者叫做布局吧...不懂�
 
 我总是觉得这东西应该已经有很成熟的实现了,但总又找不到,所以只好赶鸭子上架似的硬着头皮写了一个...(如果真的有一个已有的实现的话,请务必告诉我,我会很高兴的...)
 
+演示:<a href="http://www.hakugyokurou.net/test/roam1/example/" target="_blank">http://www.hakugyokurou.net/test/roam1/example/</a>
+
 How to use
 ----
 
