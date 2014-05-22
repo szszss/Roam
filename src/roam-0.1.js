@@ -1,13 +1,15 @@
+//Author:szszss
+//fuck...为什么有一种被挂城墙吊打羞辱play的赶脚...
 var ROAM_CONST_SPEED = "normal";
 
 $(function () {
-    $('.roam-block').each(function(i){
+    $('.roam-container').each(function(i){
         $(this).css("width", this.getAttribute("width"));
         $(this).css("height", this.getAttribute("height"));
         this.roamLock = 0;
         //$(this).css("height", this.getAttribute("height"));
     });
-    $('.roam-button').each(function(i){
+    $('.roam-block').each(function(i){
         var toggle = this.getAttribute("roam-toggle")=="true";
         if(toggle)
         {
@@ -47,7 +49,7 @@ function roam_onMouseOver(event) {
     for(var i=0;i<parent.children.length;i++)
     {
         var button = parent.children[i];
-        if(button.className != "roam-button")
+        if(button.className != "roam-block")
             return;
         if(button==obj)
         {
