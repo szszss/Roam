@@ -17,8 +17,8 @@ jQuery
 
 #### 导入:
 在HTML头加入roam-[版本].min.js和roam-[版本].css的引用就行了,例如.
-<link rel="stylesheet" type="text/css" href="roam-0.1.css" />
-<script type="text/javascript" src="roam-0.1.min.js" ></script>
+&lt;link rel="stylesheet" type="text/css" href="roam-0.1.css" /&gt;
+&lt;script type="text/javascript" src="roam-0.1.min.js" &gt;&lt;/script&gt;
 (别忘了加上jQuery的引用)
 
 #### 使用:
